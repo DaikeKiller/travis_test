@@ -1,0 +1,33 @@
+language: python
+python:
+      - "3.6"
+cache:
+      - pip
+install:
+      - pip install -r requirements.txt
+script:
+      - pytest -v --pep8
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                  [ New File ]
+^G Get Help  ^O Write Out ^W Where Is  ^K Cut Text  ^J Justify   ^C Cur Pos
+^X Exit      ^R Read File ^\ Replace   ^U Paste Text^T To Spell  ^_ Go To Line
+
